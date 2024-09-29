@@ -3,8 +3,8 @@
  * Author: Manel Arbiol Calpe
  * T1. Activits. Introducció a la Programació
  * 29/09/2024
- * Exercici 6  .
- * 16. Implementa un algorisme que mostri només els nombres parells del següent interval [0, 100] (inclosos).
+ * Exercici 17  .
+ * 17. Implementa un algorisme que mostri només els nombres no parells del següent interval [0, 100] (inclosos).
  *
  */
 
