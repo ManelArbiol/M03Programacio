@@ -1,10 +1,10 @@
 ﻿using System;
 /*
  * Author: Manel Arbiol Calpe
- * M03. Programació UF1
- * 23/10/2023
- * Exercici 7 .
- * 7. Especifica un algorisme que demani per teclat 20 valors enters i que els emmagatzemi segons les següents indicacions: 
+ * T1. Activits. Introducció a la Programació
+ * 29/09/2024
+ * Exercici 18 .
+ * 18. Especifica un algorisme que demani per teclat 20 valors enters i que els emmagatzemi segons les següents indicacions: 
 ●	si el nombre és divisible per 5, +3 al nombre rebut 
 ●	si el nombre és divisible per 3, -2 al nombre rebut 
 ●	en cas contrari, emmagatzemar el valor rebut
@@ -12,7 +12,6 @@
 Un cop finalitzat, mostrar el resultat per pantalla.
  *
  */
-
 namespace TestActivitats
 {
     public class AlotOperations
