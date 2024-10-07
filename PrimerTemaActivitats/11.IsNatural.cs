@@ -15,7 +15,7 @@ namespace PrimerTemaActivitats
 {
     public class IsNatural
     {
-        static void Main(string[] args)
+        static void Main()
         {
             const string MSG_ENTER_NUMBER = "Introdueix un número: ";
             const string MSG_ISNATURAL = "El número es natural.";
