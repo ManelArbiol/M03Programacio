@@ -12,7 +12,7 @@
 Un cop finalitzat, mostrar el resultat per pantalla.
  *
  */
-namespace T1Activitats
+namespace PrimerTemaActivitats
 {
     public class AlotOperations
     {

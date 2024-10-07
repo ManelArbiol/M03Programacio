@@ -11,7 +11,7 @@
 
 
 
-namespace T1Activitats
+namespace PrimerTemaActivitats
 {
     public class IsNatural
     {
@@ -20,21 +20,31 @@ namespace T1Activitats
             const string MSG_ENTER_NUMBER = "Introdueix un número: ";
             const string MSG_ISNATURAL = "El número es natural.";
             const string MSG_NONATURAL = "El número no és natural";
+            const string MSG_ERROR = "Error: Introdueix un número vàlid.";
             const int NUM_NATURAL = 1;
 
-            double num;
 
-            Console.WriteLine(MSG_ENTER_NUMBER);
-            num = Convert.ToDouble(Console.ReadLine());
+            try
+            {
+                double num;
 
-            if (num >= NUM_NATURAL && num % 1 == 0)
-            {
-                Console.WriteLine(MSG_ISNATURAL);
+                Console.WriteLine(MSG_ENTER_NUMBER);
+                num = Convert.ToDouble(Console.ReadLine());
+
+                if (num >= NUM_NATURAL && num % 1 == 0)
+                {
+                    Console.WriteLine(MSG_ISNATURAL);
+                }
+                else
+                {
+                    Console.WriteLine(MSG_NONATURAL);
+                }
             }
-            else
+            catch (Exception)
             {
-                Console.WriteLine(MSG_NONATURAL);
+                Console.WriteLine(MSG_ERROR);
             }
+
         }
     }
 }

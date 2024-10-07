@@ -11,7 +11,7 @@
 
 
 
-namespace T1Activitats
+namespace PrimerTemaActivitats
 {
     public class IntervalRangeWithTrys
     {

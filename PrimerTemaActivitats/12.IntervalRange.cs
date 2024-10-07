@@ -11,7 +11,7 @@
 
 
 
-namespace T1Activitats
+namespace PrimerTemaActivitats
 {
     public class IntervalRange
     {
@@ -24,21 +24,27 @@ namespace T1Activitats
             const string ENTER_NUM_TXT = "Introdueix un número entre 5 i 50: ";
             const string CORRECT_NUM_TXT = "El número introduït és correcte.";
             const string INCORRECT_NUM_TXT = "El número introduït no està dins del interval.";
+            const string ERROR_TXT = "Error: No has introduït un número, només són valids els números";
 
             //variables
 
-            int num;
-
             Console.WriteLine(ENTER_NUM_TXT);
-            num = Convert.ToInt32(Console.ReadLine());
 
-            if (num >= MIN_RANGE && num <= MAX_RANGE)
+            try
             {
-                Console.WriteLine(CORRECT_NUM_TXT);
+                int num = Convert.ToInt32(Console.ReadLine());
+                if (num >= MIN_RANGE && num <= MAX_RANGE)
+                {
+                    Console.WriteLine(CORRECT_NUM_TXT);
+                }
+                else
+                {
+                    Console.WriteLine(INCORRECT_NUM_TXT);
+                }
             }
-            else
+            catch (Exception)
             {
-                Console.WriteLine(INCORRECT_NUM_TXT);
+                Console.WriteLine(ERROR_TXT);
             }
         }
     }
