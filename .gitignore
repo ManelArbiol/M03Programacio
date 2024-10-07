@@ -1,4 +1,3 @@
-CopilotIndices/
-FileContentIndez/
-v17/
-VisualCommunityThings/
+.git
+.vs
+.gitignore
