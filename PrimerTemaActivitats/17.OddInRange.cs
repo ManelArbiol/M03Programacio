@@ -26,11 +26,6 @@ namespace PrimerTemaActivitats
 
                 if (i % 2 != 0)
                 {
-                    //Utilitzo Console.Write i no Console.WriteLine perque
-                    //vui que el ordre de surtida sigui en horizontal i no vertical, ja que Console.WriteLine
-                    //imprimeix les dades a la consola i afegeix una nova línia al final.
-                    //Això significa que si fas un altre Console.Write o Console.WriteLine després de Console.WriteLine,
-                    //les noves dades s'imprimiran en una nova línia i no al costat.
                     Console.Write(i + " ");
                 }
             }
